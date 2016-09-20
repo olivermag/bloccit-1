@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bloccit</title>
+    <title>MagnyHub</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,11 @@
   </head>
 
   <body>
+    <ul>
+      <li><%= link_to "Main", welcome_index_path %></li>
+      <li><%= link_to "About us", welcome_about_path %></li>
+    </ul>
+
     <%= yield %>
   </body>
 </html>
