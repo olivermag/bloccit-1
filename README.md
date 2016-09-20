@@ -2,4 +2,4 @@
 
 ## Created by: Olivier Magny
 
-##Website live version available at www.oliver-bloccit-1.herokuapp.com
+##Website live version available at https://oliver-bloccit-1.herokuapp.com/
